@@ -1,0 +1,145 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+
+}
+.firstimg img{
+  float: center;
+  position: absolute;
+  width:300px;
+  height: auto;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%,50%);
+}
+header{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(BANNER.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+
+}
+ul{
+  float: right;
+  list-style-type: none;
+  margin: 25px;
+}
+ul li{
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid #fff;
+  transition: 0.6s ease;
+  box-shadow: 0 0 10px #fff;
+
+}
+
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+ul li a.active{
+  background-color: #fff;
+color: #000;
+
+}
+.title{
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%,60%);
+}
+.title h1{
+  font-family: rockwell;
+  color: #fff;
+  padding: 5px 20px;
+  border: 2px solid #fff;
+  font-size: 40px;
+}
+.context {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%,50%);
+}
+.context h4{
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 25px;
+}
+.para{
+  margin-right: 10px;
+  font-family: Helvetica;
+  color: #fff;
+  text-align: center;
+  transform: translate(0%,450%);
+}
+.signature img{
+  float: left;
+  width: 150px;
+  height: auto;
+  transform: translate(400%,0%);}
+.nextpage{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(385%,-1000%);
+
+}
+.previouspage{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-385%,-1000%);}
+  .previouspage{
+    float: right;
+    list-style-type: none;
+    margin: 25px;
+  }
+.btn:hover{
+  background-color: #fff;
+  color: #000;}
+.nextpage{
+  float: right;
+  list-style-type: none;
+  margin: 25px;
+}
+.nextpage{
+  display: inline-block;
+}
+.btn{
+  border: 1px solid #fff;
+  padding: 5px 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.6s ease;
+  box-shadow: 0 0 10px #fff;
+}
+.botn:hover{
+  background-color: #fff;
+  color: #000;}
+.botn{
+  border: 1px solid #fff;
+  padding: 5px 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.6s ease;
+  box-shadow: 0 0 10px #fff;
+  transform: translate(-50%,385%);
+}
+.st p{
+    margin-right: 200px;
+    margin-left: 200px;
+    font-family: Helvetica;
+    color: #FF9C54;
+    position: absolute;
+    text-align: center;
+    transform: translate(0%,350%);
+
+}
